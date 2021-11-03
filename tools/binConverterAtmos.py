@@ -49,7 +49,7 @@ for byte in openFileToByte_generator(fileIn,16):
 
 
 
-stringBuffer = "#include <Arduino.h> \n \n#define FUSEE_BIN_SIZE " + str(countBytes) + "\nconst PROGMEM byte fuseeBin[FUSEE_BIN_SIZE] = {\n" + stringBuffer + "\n};"
+stringBuffer = "#include <Arduino.h> \n \n#define ATMOS_BIN_SIZE " + str(countBytes) + "\nconst PROGMEM byte atmosBin[ATMOS_BIN_SIZE] = {\n" + stringBuffer + "\n};"
 
 print("\nwriting file: " + fileOut)
 text_file = open(fileOut, "w")

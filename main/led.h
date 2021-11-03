@@ -37,15 +37,6 @@ void ledBlink(const char color[], int count, int duration) {
   }
 }
 
-void ledFade(const char color[], int fadeAmount, int bright) {
-  setLedColor(color, bright);
-  bright = bright + fadeAmount;
-  if (bright <= 0 || bright >= 255) {
-  fadeAmount = -fadeAmount;
-  }
-  delay(30);
-}
-
 void sleepDeep(int errorCode) {
   // Turn off all LEDs and go to sleep. To launch another payload, press the reset button on the device.
   //delay(100);

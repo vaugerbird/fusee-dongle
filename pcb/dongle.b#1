@@ -1510,38 +1510,6 @@ chip</description>
 </package>
 </packages>
 </library>
-<library name="SamacSys_Parts">
-<description>&lt;b&gt;https://componentsearchengine.com&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
-<packages>
-<package name="ASMBMTB10B3A2">
-<description>&lt;b&gt;ASMB-MTB1-0B3A2-2&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-0.75" y="-1.5" dx="1.5" dy="1.1" layer="1" rot="R90"/>
-<smd name="2" x="-0.75" y="1.5" dx="1.5" dy="1.1" layer="1" rot="R90"/>
-<smd name="3" x="0.75" y="1.5" dx="1.5" dy="1.1" layer="1" rot="R90"/>
-<smd name="4" x="0.75" y="-1.5" dx="1.5" dy="1.1" layer="1" rot="R90"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-1.4" y1="-1.6" x2="1.4" y2="-1.6" width="0.1" layer="51"/>
-<wire x1="1.4" y1="-1.6" x2="1.4" y2="1.6" width="0.1" layer="51"/>
-<wire x1="1.4" y1="1.6" x2="-1.4" y2="1.6" width="0.1" layer="51"/>
-<wire x1="-1.4" y1="1.6" x2="-1.4" y2="-1.6" width="0.1" layer="51"/>
-<wire x1="-2.4" y1="3.25" x2="2.4" y2="3.25" width="0.1" layer="51"/>
-<wire x1="2.4" y1="3.25" x2="2.4" y2="-3.25" width="0.1" layer="51"/>
-<wire x1="2.4" y1="-3.25" x2="-2.4" y2="-3.25" width="0.1" layer="51"/>
-<wire x1="-2.4" y1="-3.25" x2="-2.4" y2="3.25" width="0.1" layer="51"/>
-<wire x1="1.4" y1="0.3" x2="1.4" y2="-0.3" width="0.2" layer="21"/>
-<wire x1="-1.4" y1="0.3" x2="-1.4" y2="-0.3" width="0.2" layer="21"/>
-<wire x1="-0.75" y1="-2.9" x2="-0.75" y2="-2.9" width="0.2" layer="21"/>
-<wire x1="-0.75" y1="-2.9" x2="-0.75" y2="-2.8" width="0.2" layer="21" curve="180"/>
-<wire x1="-0.75" y1="-2.8" x2="-0.75" y2="-2.8" width="0.2" layer="21"/>
-<wire x1="-0.75" y1="-2.8" x2="-0.75" y2="-2.9" width="0.2" layer="21" curve="180"/>
-<wire x1="-0.75" y1="-2.9" x2="-0.75" y2="-2.9" width="0.2" layer="21"/>
-<wire x1="-0.75" y1="-2.9" x2="-0.75" y2="-2.8" width="0.2" layer="21" curve="180"/>
-</package>
-</packages>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1827,16 +1795,6 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="85" x="-60.96" y="-46.99" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="-60.96" y="-46.99" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-61.595" y="-49.53" size="1.27" layer="27"/>
-</element>
-<element name="LED1" library="SamacSys_Parts" package="ASMBMTB10B3A2" value="ASMB-MTB1-0B3A2" x="-59.69" y="-52.07" smashed="yes">
-<attribute name="DESCRIPTION" value="Standard LEDs - SMD PLCC4,T/Mt,BS/WF Silicone RGB" x="-59.69" y="-52.07" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="2.1mm" x="-59.69" y="-52.07" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Avago Technologies" x="-59.69" y="-52.07" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ASMB-MTB1-0B3A2" x="-59.69" y="-52.07" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="630-ASMB-MTB1-0B3A2" x="-59.69" y="-52.07" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Broadcom-Avago/ASMB-MTB1-0B3A2?qs=pUKx8fyJudDzsc2Rt%2Fv8dg%3D%3D" x="-59.69" y="-52.07" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-59.69" y="-52.07" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="-59.69" y="-52.07" size="1.27" layer="27" align="center"/>
 </element>
 </elements>
 <signals>
