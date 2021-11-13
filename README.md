@@ -2,7 +2,7 @@
 **DO NOT use this repository as it stands!!! I still have much to work on, I just made it public in case there was anybody that wanted to see what I'm doing or help out**
 
 # fusee-dongle
-A single PCB fusee injector dongle based around the Atmel SAMD21. Based on my [sam fusee launcher](https://github.com/vaugerbird/sam-fusee-launcher) project, which is based on [sam fusee launcher](https://github.com/noemu/sam-fusee-launcher). This project uses the main.ino from [electronrancher's SAMD_Fusee_Multiloader](https://github.com/electronrancher/SAMD_Fusee_Multiloader) to allow multiple for payloads.
+A single PCB fusee injector dongle based around the Atmel SAMD21. Based on my [sam fusee launcher](https://github.com/vaugerbird/sam-fusee-launcher) project, which is based on [sam fusee launcher](https://github.com/noemu/sam-fusee-launcher). This project uses a modified version of main.ino from [electronrancher's SAMD_Fusee_Multiloader](https://github.com/electronrancher/SAMD_Fusee_Multiloader) to allow multiple for payloads.
 
 ## Standard disclaimer
 This project was created only for educational purposes, and does not enable any kind of copyright infringement. Seriously, don't use this project for anything illegal, I don't need or want the Ninty ninjas coming after me.
